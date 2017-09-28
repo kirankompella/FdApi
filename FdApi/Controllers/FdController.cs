@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace FdApi.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class FdController : Controller
     {
         // GET api/values
         [HttpGet]
