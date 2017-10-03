@@ -4746,6 +4746,16 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
       }
     }
   },
@@ -12524,10 +12534,16 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12538,12 +12554,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kiran\\source\\repos\\FdApi\\fdapi\\FdApi.csproj",
+      "projectUniqueName": "C:\\Users\\Kiran\\source\\repos\\FdApi\\FdApi\\FdApi.csproj",
       "projectName": "FdApi",
-      "projectPath": "C:\\Users\\Kiran\\source\\repos\\FdApi\\fdapi\\FdApi.csproj",
+      "projectPath": "C:\\Users\\Kiran\\source\\repos\\FdApi\\FdApi\\FdApi.csproj",
       "packagesPath": "C:\\Users\\Kiran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kiran\\source\\repos\\FdApi\\fdapi\\obj\\",
+      "outputPath": "C:\\Users\\Kiran\\source\\repos\\FdApi\\FdApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12561,7 +12580,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Kiran\\source\\repos\\FdApi\\dataaccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Kiran\\source\\repos\\FdApi\\dataaccess\\DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
