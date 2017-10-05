@@ -4,6 +4,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FdApi", "FdApi\FdApi.csproj", "{BF8A02D8-AEB5-4748-A1FC-3B6E721CBC65}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{4E2236ED-284F-4904-8A5A-9261A8FBB243}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,18 @@ Global
 		{BF8A02D8-AEB5-4748-A1FC-3B6E721CBC65}.Release|x64.Build.0 = Release|Any CPU
 		{BF8A02D8-AEB5-4748-A1FC-3B6E721CBC65}.Release|x86.ActiveCfg = Release|Any CPU
 		{BF8A02D8-AEB5-4748-A1FC-3B6E721CBC65}.Release|x86.Build.0 = Release|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Debug|x64.Build.0 = Debug|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Debug|x86.Build.0 = Debug|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Release|x64.Build.0 = Release|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E2236ED-284F-4904-8A5A-9261A8FBB243}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

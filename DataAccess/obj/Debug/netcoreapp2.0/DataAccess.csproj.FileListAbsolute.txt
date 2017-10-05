@@ -1,0 +1,9 @@
+C:\Users\Kiran\source\repos\FdApi\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.deps.json
+C:\Users\Kiran\source\repos\FdApi\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.dll
+C:\Users\Kiran\source\repos\FdApi\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.pdb
+C:\Users\Kiran\source\repos\FdApi\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Kiran\source\repos\FdApi\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Kiran\source\repos\FdApi\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.AssemblyInfo.cs
+C:\Users\Kiran\source\repos\FdApi\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.dll
+C:\Users\Kiran\source\repos\FdApi\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.pdb
+C:\Users\Kiran\source\repos\FdApi\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.csprojResolveAssemblyReference.cache
