@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public interface IFdRepository
+    public interface IRepository
     {
         Task<IEnumerable<Fd>> GetAllFixedDeposits();
         Task<Fd> GetFixedDeposit(string id);

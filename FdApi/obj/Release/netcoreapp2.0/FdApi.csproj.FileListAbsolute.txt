@@ -1,0 +1,13 @@
+C:\Users\Kiran\source\repos\FdApi\FdApi\bin\Release\netcoreapp2.0\FdApi.deps.json
+C:\Users\Kiran\source\repos\FdApi\FdApi\bin\Release\netcoreapp2.0\FdApi.runtimeconfig.json
+C:\Users\Kiran\source\repos\FdApi\FdApi\bin\Release\netcoreapp2.0\FdApi.runtimeconfig.dev.json
+C:\Users\Kiran\source\repos\FdApi\FdApi\bin\Release\netcoreapp2.0\FdApi.dll
+C:\Users\Kiran\source\repos\FdApi\FdApi\bin\Release\netcoreapp2.0\FdApi.pdb
+C:\Users\Kiran\source\repos\FdApi\FdApi\bin\Release\netcoreapp2.0\DataAccess.dll
+C:\Users\Kiran\source\repos\FdApi\FdApi\bin\Release\netcoreapp2.0\DataAccess.pdb
+C:\Users\Kiran\source\repos\FdApi\FdApi\obj\Release\netcoreapp2.0\FdApi.csprojResolveAssemblyReference.cache
+C:\Users\Kiran\source\repos\FdApi\FdApi\obj\Release\netcoreapp2.0\FdApi.csproj.CoreCompileInputs.cache
+C:\Users\Kiran\source\repos\FdApi\FdApi\obj\Release\netcoreapp2.0\FdApi.AssemblyInfoInputs.cache
+C:\Users\Kiran\source\repos\FdApi\FdApi\obj\Release\netcoreapp2.0\FdApi.AssemblyInfo.cs
+C:\Users\Kiran\source\repos\FdApi\FdApi\obj\Release\netcoreapp2.0\FdApi.dll
+C:\Users\Kiran\source\repos\FdApi\FdApi\obj\Release\netcoreapp2.0\FdApi.pdb

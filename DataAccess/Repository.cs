@@ -6,36 +6,40 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public class FdRepository : IFdRepository
+    public class Repository 
     {
-        private readonly FdContext _context = null;
+        private readonly IMongoCollection<Fd> collection = null;
 
-        public FdRepository(string connectionString, string dataBase)
+        public Repository()
         {
-            _context = new FdContext(connectionString,dataBase);
+            string connectionString = "mongodb://kirankompella:i9l5qAhTdxyA23riDwu3g7XDyVqEcvIrGPTGYs7ZjXtks5Ii4JrELv8p9lbBvlBa8PKfwsAAD4diziGiigEe2A==@kirankompella.documents.azure.com:10255/?ssl=true&replicaSet=globaldb";
+            var dataBase = "FixedDeposits";
+            var mongoClient = new MongoClient(connectionString);
+            collection = mongoClient.GetDatabase(dataBase).GetCollection<Fd>(dataBase);
+
         }
 
         public async Task<IEnumerable<Fd>> GetAllFixedDeposits()
         {
-            return await _context.FixedDeposits.Find(_ => true).ToListAsync();
+            return await collection.Find(_ => true).ToListAsync();
         }
 
         public async Task<Fd> GetFixedDeposit(string id)
         {
             var filter = Builders<Fd>.Filter.Eq("InvestmentId", id);
-            return await _context.FixedDeposits
+            return await collection
                                  .Find(filter)
                                  .FirstOrDefaultAsync();
         }
 
         public async Task AddFixedDeposit(Fd item)
         {
-            await _context.FixedDeposits.InsertOneAsync(item);
+            await collection.InsertOneAsync(item);
         }
 
         public async Task<DeleteResult> RemoveFixedDeposit(string id)
         {
-            return await _context.FixedDeposits.DeleteOneAsync(
+            return await collection.DeleteOneAsync(
                          Builders<Fd>.Filter.Eq("InvestmentId", id));
         }
 
@@ -52,7 +56,7 @@ namespace DataAccess
                                 .Set(s => s.NominatedTo, fd.NominatedTo)
                                 .Set(s => s.RateOfIntrest, fd.RateOfIntrest)
                                 .CurrentDate(s => DateTime.Now);
-            return await _context.FixedDeposits.UpdateOneAsync(filter, update);
+            return await collection.UpdateOneAsync(filter, update);
         }
 
         public async Task UpdateBulkFixedDeposits(IEnumerable<Fd> fixedDeposits)
